@@ -1,0 +1,50 @@
+[user]
+	name = NathanMarq
+    email = NathanMarq@gmail.com
+[push]
+    default = nothing
+[core]
+    excludesfile = ~/.gitignore
+    editor = vim
+    whitespace = trailing-space,space-before-tab
+[alias]
+    ci = commit -a -v
+    co = checkout
+    st = status
+    praise = blame
+    br = branch
+    df = diff
+    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    rb = rebase
+[apply]
+    whitespace = fix
+[color]
+    ui = true
+    interactive = true
+[color "branch"]
+    current = yellow reverse
+    local = green
+    remote = red
+    plain = white
+    untracked = cyan
+[color "diff"]
+    meta = blue
+    frag = black
+    old = red
+    new = green
+    renames = copy
+    whitespace = blue reverse
+[color "status"]
+    added = yellow
+    updated = green
+    changed = red
+    untracked = cyan
+    nobranch = blue
+[github]
+    user = NathanMarq
+[help]
+    autocorrect = 1
+[merge]
+    tool = opendiff
+[pager]
+    color = true
