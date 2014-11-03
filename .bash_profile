@@ -15,4 +15,4 @@ export LSCOLORS=GxFxCxDxBxegedabagaced
 
 
 ### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
+export PATH="/usr/local/heroku/bin:$PATH:/Users/nathanaelmarquardt/android-sdk-macosx/platform-tools:/Users/nathanaelmarquardt/android-sdk-macosx/tools:/Users/nathanaelmarquardt/apache-ant-1.9.4/bin"

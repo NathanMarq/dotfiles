@@ -1,0 +1,26 @@
+'global':
+  'editor':
+    'fontSize': 12
+    'showInvisibles': true
+    'showIndentGuide': true
+    'invisibles': {}
+  'core':
+    'themes': [
+      'atom-dark-ui'
+      'monokai'
+    ]
+    'ignoredNames': [
+      '.git'
+      '.svn'
+      '.DS_Store'
+    ]
+  'exception-reporting':
+    'userId': '6893989b-6ce4-ec07-ac2b-a3baf642d522'
+  'release-notes':
+    'viewedVersion': '0.95.0'
+  'welcome':
+    'showOnStartup': false
+  'metrics':
+    'userId': 'f62dcfad1115cb411a2e99c32ceff874ce046938'
+  'linter':
+    'lintDebug': true
